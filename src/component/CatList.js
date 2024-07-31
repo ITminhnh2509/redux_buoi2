@@ -9,6 +9,7 @@ import {
   reCheckCat,
 } from "../redux/catSlice";
 import { Button, Container, Table } from "reactstrap";
+import AddCat from "./AddCat";
 
 export default function CatList() {
   const dispatch = useDispatch();
@@ -28,6 +29,7 @@ export default function CatList() {
   return (
     <div>
       <Container>
+        <AddCat handle_add={handle_add} />
         <Table bordered hover>
           <thead>
             <tr>
@@ -38,7 +40,6 @@ export default function CatList() {
             </tr>
           </thead>
           <tbody>
-            {}
             {cats.map((item, index) => (
               <tr key={item.id}>
                 <th scope="row">{index}</th>
