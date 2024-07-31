@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/redux_buoi2/static/css/main.d5289b2f.css",
+    "main.js": "/redux_buoi2/static/js/main.2779ca09.js",
+    "index.html": "/redux_buoi2/index.html",
+    "main.d5289b2f.css.map": "/redux_buoi2/static/css/main.d5289b2f.css.map",
+    "main.2779ca09.js.map": "/redux_buoi2/static/js/main.2779ca09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5289b2f.css",
+    "static/js/main.2779ca09.js"
+  ]
+}
